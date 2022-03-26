@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Pinoy Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/bipress.png" type="image/x-icon">
+</head> 
+<body>
+
+<!--1. Header/Title with a Login button in the center and a little description below the Login button-->
+    <div class="headings">
+        <h1>Original Pinoy Market</h1>
+        <p>Delicious Foods and Drinks made by the Filipino</p>
+        <button onclick="myFunction()">Login</button>
+        <p>We gather high quality ingredients to produce delicious foods and drinks to deliver in your homes that will make you and your family or friends happy.</p>
+    </div>
+<!--1. End of the Header/Title etc-->
+
+<!--2. Nav: Home, About us, Cart, Sign up and Language-->
+<div class="container-nav">
+    <ul class="nav">
+        <li><a href="" class="home">Home</a></li>
+        <li><a href="" class="home">About Us</a></li>
+        <li><a href="" class="home">Cart</a></li>
+        <li><a href="" class="home">Sign Up</a></li>
+        <li><select name="language" id="languages"></li>
+            <optgroup label="Languages">
+            <option value="English">English</option>
+            <option value="Filipino">Filipino</option>
+            <option value="Bisaya">Bisaya</option>
+            </optgroup>
+            </select>
+    </ul>
+</div>
+</div>
+<br>
+<!--2. End of Nav-->
+
+<!--1A. This is for the login form-->
+<div id="a">
+  <div class="container-login" id="Log-form">
+      <div class="close-button">
+          <button onclick="myFunction()" class="button-solid"><img src="img/x-icon.png" alt="x-icon" width="15px" height="15px"></button>
+      </div>
+      <div class="text">Login Form</div>
+  <form action="#">
+          <div class="data">
+              <label>Email or Phone</label>
+              <input type="text" required>
+          </div>
+          <div class="data">
+              <label>Password</label>
+              <input type="password" required>
+          </div>
+      <div class="forgot-pass"><a href="#">Forgot Password?</a></div>
+      <div class="button">
+      <div class="inner"></div>
+      <button type="submit">Login</button>
+      </div>
+      <div class="signup-link">Don't have an account yet?&nbsp;&nbsp;<a href="#">Sign up now</a>
+      </div>
+  </form>
+  </div>
+<!--1A. End of the Login form-->
+
+<!--3. Starts of Images Gallery-->
+<div class="gallery-container">
+    <div class="gallery">
+      <a target="_blank" href="#">
+        <img src="img/adobo-meal.jpg" alt="Adobo" width="300px" height="200px">
+      </a>
+      <div class="desc">Meals</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="#">
+        <img src="img/Buko-Pandan-Juice-drinks.jpg" alt="Buko Pandan" width="300px" height="200px">
+      </a>
+      <div class="desc">Drinks</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="#">
+        <img src="img/taho-drink-streetfoods.jpg" alt="Taho" width="300px" height="200px">
+      </a>
+      <div class="desc">Street Foods</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="">
+        <img src="img/lechon-pork-belly-occasional.jpg" alt="Lechon" width="300px" height="200px">
+      </a>
+      <div class="desc">Occasional Foods</div>
+    </div>
+<!--3. End of Images Gallery-->
+
+<!--4. Text at the bottom-->
+<div class="created">
+  <p>Created by: <a target="_blank" href="https://www.facebook.com/teachme28">Adrian Vincent R. Balayo</a></p>
+</div>
+<!--4. End of text-->
+    <script src="animation.js"></script>
+</body>
+</html>
